@@ -1,0 +1,29 @@
+# secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# OS metadata
+.DS_Store
+
+# run artifacts
+jobs/
+*.log
+results/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+
+# packages and build outputs
+build/
+dist/
+*.egg-info/
+*.whl
+*.tar.gz
+
+# probe outputs
+*.png

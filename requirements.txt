@@ -1,0 +1,7 @@
+# Harbor is installed separately; these are the extra dependencies required
+# by the plugins and scripts inside Harbor's virtual environment:
+#   uv pip install --python <harbor-python> -r requirements.txt
+e2b==2.24.0
+openai
+httpx
+python-dotenv
